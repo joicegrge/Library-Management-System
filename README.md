@@ -55,8 +55,15 @@ Create/configure the MySQL or MariaDB database and tables for this application. 
 Open PowerShell in the `backend` directory and run:
 
 ```powershell
-$env:MYSQL_DSN = "root:@tcp(127.0.0.1:3306)/library_management?parseTime=true&charset=utf8mb4"
+$env:MYSQL_DSN = "root:@tcp(127.0.0.1:3306)/library_management?parseTime=true&charset=utf8mb4" (if your mysql has no password)
+                                or
+$env:MYSQL_DSN = "root:'your_password''@tcp(127.0.0.1:3306)/library_management?parseTime=true&charset=utf8mb4" (if your mysql has  password)
+
 go run ./cmd/server
+
+if your mysql have no issue then direct command for backend
+
+go run .
 ```
 
 `MYSQL_DSN` is required because the Go server reads its database connection settings from that environment variable and exits with an error if it is missing. PowerShell's `$env:MYSQL_DSN = ...` sets it for the current terminal session so `go run` can pass the database configuration to the server. The value means: connect as MySQL user `root` with a blank password, to `127.0.0.1:3306`, and use the `library_management` database. `parseTime=true` enables MySQL date/time parsing, and `charset=utf8mb4` supports full Unicode text. Keep the API running in this terminal; the API listens at `http://localhost:8080` by default.
