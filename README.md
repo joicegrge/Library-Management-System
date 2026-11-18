@@ -98,3 +98,49 @@ To run only the frontend, use the same `npm install` and `npm start` commands. B
 - Clear `folio-library-v1` from browser Local Storage to reset locally stored demo data.
 - Book cover images use remote URLs; the frontend shows a fallback cover if an image cannot load.
 - Do not use the example blank-password database connection on a shared or production database. Use credentials appropriate for that environment.
+
+## ScreenShots
+
+## Dashboard - light mode
+
+<img width="1600" height="770" alt="WhatsApp Image 2026-11-18 at 5 12 19 PM" src="https://github.com/user-attachments/assets/4dc7359f-c70c-4704-9e78-8c9b9d58d347" />
+
+## Dashboard - Dark mode
+
+
+<img width="1600" height="768" alt="WhatsApp Image 2026-11-18 at 5 09 46 PM" src="https://github.com/user-attachments/assets/cf0c4a57-07a9-4d50-81f4-41116e63fafd" />
+
+## Add Book
+
+<img width="1600" height="764" alt="WhatsApp Image 2026-11-18 at 5 10 00 PM" src="https://github.com/user-attachments/assets/8a169aa4-beff-4f0b-bdf8-abe1868f359b" />
+
+## Member Page
+
+<img width="1600" height="767" alt="WhatsApp Image 2026-11-18 at 5 10 15 PM" src="https://github.com/user-attachments/assets/2a732edf-3bc2-48bb-b54e-c3cf70652cf2" />
+
+## Add Member
+
+<img width="1600" height="760" alt="WhatsApp Image 2026-11-18 at 5 10 27 PM" src="https://github.com/user-attachments/assets/120a1eaf-31ca-45e5-a01e-e166bd85e506" />
+
+## Loan Page
+
+<img width="1600" height="758" alt="WhatsApp Image 2026-11-18 at 5 10 43 PM" src="https://github.com/user-attachments/assets/7b172459-c86f-44d7-a6fd-2d95fe3fdfcf" />
+
+## Lent Book Page
+
+<img width="1600" height="760" alt="WhatsApp Image 2026-11-18 at 5 10 58 PM" src="https://github.com/user-attachments/assets/71c47b05-fe43-4ac9-a5a2-933562ba289f" />
+
+## Reading List
+
+<img width="1600" height="763" alt="WhatsApp Image 2026-11-18 at 5 11 11 PM" src="https://github.com/user-attachments/assets/dc3be1cc-dd6b-4bb1-8884-9e842ad10235" />
+
+## Recent Activity
+<img width="1600" height="763" alt="WhatsApp Image 2026-11-18 at 5 11 38 PM" src="https://github.com/user-attachments/assets/3d882b0f-fdf8-48ea-bd77-72613f1302cf" />
+
+
+
+
+
+
+
+
